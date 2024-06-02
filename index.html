@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>高考加油，時光祝您金榜题名！🎉🎉🎉</title>
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+  <script src="./js/hm.js"></script>
+  <script src="./js/fit.js"></script>
+  <meta name="viewport" content="width=500, height=750, initial-scale=0.64">
+  <style>
+    body {
+      margin: 0 auto;
+    }
+
+    #btn-make {
+      bottom: 220px;
+    }
+
+    #div_support {
+      bottom: 160px;
+    }
+  </style>
+  <style type="text/css">
+    #_copy {
+      align-items: center;
+      background: #4494d5;
+      border-radius: 3px;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-size: 13px;
+      height: 30px;
+      justify-content: center;
+      position: absolute;
+      width: 60px;
+      z-index: 1000
+    }
+
+    #select-tooltip,
+    #sfModal,
+    .modal-backdrop,
+    div[id^=reader-helper] {
+      display: none !important
+    }
+
+    .modal-open {
+      overflow: auto !important
+    }
+
+    ._sf_adjust_body {
+      padding-right: 0 !important
+    }
+
+    .super_copy_btns_div {
+      position: fixed;
+      width: 154px;
+      left: 10px;
+      top: 45%;
+      background: #e7f1ff;
+      border: 2px solid #4595d5;
+      font-weight: 600;
+      border-radius: 2px;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      z-index: 5000
+    }
+
+    .super_copy_btns_logo {
+      width: 100%;
+      background: #4595d5;
+      text-align: center;
+      font-size: 12px;
+      color: #e7f1ff;
+      line-height: 30px;
+      height: 30px
+    }
+
+    .super_copy_btns_btn {
+      display: block;
+      width: 128px;
+      height: 28px;
+      background: #7f5711;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 12px;
+      border: 0;
+      outline: 0;
+      margin: 8px auto;
+      font-weight: 700;
+      cursor: pointer;
+      opacity: .9
+    }
+
+    .super_copy_btns_btn:hover {
+      opacity: .8
+    }
+
+    .super_copy_btns_btn:active {
+      opacity: 1
+    }
+  </style>
+  <style data-id="immersive-translate-input-injected-css">
+    .immersive-translate-input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 2147483647;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .immersive-translate-loading-spinner {
+      vertical-align: middle !important;
+      width: 10px !important;
+      height: 10px !important;
+      display: inline-block !important;
+      margin: 0 4px !important;
+      border: 2px rgba(221, 244, 255, 0.6) solid !important;
+      border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+      border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+      border-radius: 50% !important;
+      padding: 0 !important;
+      -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+      animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+    }
+
+    @-webkit-keyframes immersive-translate-loading-animation {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+
+      to {
+        -webkit-transform: rotate(359deg);
+      }
+    }
+
+    @keyframes immersive-translate-loading-animation {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(359deg);
+      }
+    }
+
+
+    .immersive-translate-input-loading {
+      --loading-color: #f78fb6;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      display: block;
+      margin: 12px auto;
+      position: relative;
+      color: white;
+      left: -100px;
+      box-sizing: border-box;
+      animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+    }
+
+    @keyframes immersiveTranslateShadowRolling {
+      0% {
+        box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+      }
+
+      12% {
+        box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+      }
+
+      25% {
+        box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+      }
+
+      36% {
+        box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+      }
+
+      50% {
+        box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color);
+      }
+
+      62% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color);
+      }
+
+      75% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color);
+      }
+
+      87% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+      }
+
+      100% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+      }
+    }
+
+
+    .immersive-translate-search-recomend {
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      position: relative;
+      font-size: 16px;
+    }
+
+    .immersive-translate-search-enhancement-en-title {
+      color: #4d5156;
+    }
+
+    /* dark */
+    @media (prefers-color-scheme: dark) {
+      .immersive-translate-search-recomend {
+        border: 1px solid #3c4043;
+      }
+
+      .immersive-translate-close-action svg {
+        fill: #bdc1c6;
+      }
+
+      .immersive-translate-search-enhancement-en-title {
+        color: #bdc1c6;
+      }
+    }
+
+
+    .immersive-translate-search-settings {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      cursor: pointer;
+    }
+
+    .immersive-translate-search-recomend::before {
+      /* content: " "; */
+      /* width: 20px; */
+      /* height: 20px; */
+      /* top: 16px; */
+      /* position: absolute; */
+      /* background: center / contain url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAxlBMVEUAAADpTInqTIjpSofnSIfqS4nfS4XqS4nqTIjsTYnrTInqTIroS4jvQIDqTIn////+/v7rSYjpTIn8/v7uaZzrTIr9/f3wfansWJL88/b85e73qc39+/v3xNnylrvrVI/98fb62Obva5/8+fr76vH4y9zpSIj74e353Oj1ocTzm77xhK/veKbtYpjsXJTqU47oTInxjrXyh7L99fj40eH2ttH1udD3sc31ssz1rMnykLXucqPtbqD85e/1xdn2u9DzqcXrUY6FaJb8AAAADnRSTlMA34BgIM8Q37/fz7+/EGOHcVQAAAGhSURBVDjLhZPncuowEEZFTW7bXVU7xsYYTO/p7bb3f6lICIOYJOT4h7/VnFmvrBFjrF3/CR/SajBHswafctG0Qg3O8O0Xa8BZ6uw7eLjqr30SofCDVSkemMinfL1ecy20r5ygR5zz3ArcAqJExPTPKhDENEmS30Q9+yo4lEQkqVTiIEAHCT10xWERRdH0Bq0aCOPZNDV3s0xaYce1lHEoDHU8wEh3qRJypNcTAeKUIjgKMeGLDoRCLVLTVf+Ownj8Kk6H9HM6QXPgYjQSB0F00EJEu10ILQrs/QeP77BSSr0MzLOyuJJQbnUoOOIUI/A8EeJk9E4YUHUWiRyTVKGgQUB8/3e/NpdGlfI+FMQyWsCBWyz4A/ZyHXyiiz0Ne5aGZssoxRmcChw8/EFKQ5JwwkUo3FRT5yXS7q+Y/rHDZmFktzpGMvO+5QofA4FPpEmGw+EWRCFvnaof7Zhe8NuYSLR0xErKLThUSs8gnODh87ssy6438yzbLzxl012HS19vfCf3CNhnbWOL1eEsDda+gDPUvri8tSZzNFrwIZf1NmNvqC1I/t8j7nYAAAAASUVORK5CYII='); */
+    }
+
+    .immersive-translate-search-title {}
+
+    .immersive-translate-search-title-wrapper {}
+
+    .immersive-translate-search-time {
+      font-size: 12px;
+      margin: 4px 0 24px;
+      color: #70757a;
+    }
+
+    .immersive-translate-expand-items {
+      display: none;
+    }
+
+    .immersive-translate-search-more {
+      margin-top: 16px;
+      font-size: 14px;
+    }
+
+    .immersive-translate-modal {
+      display: none;
+      position: fixed;
+      z-index: 2147483647;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      font-size: 15px;
+    }
+
+    .immersive-translate-modal-content {
+      background-color: #fefefe;
+      margin: 10% auto;
+      padding: 40px 24px 24px;
+      border: 1px solid #888;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 270px;
+      font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+        "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+      position: relative
+    }
+
+    .immersive-translate-modal .immersive-translate-modal-content-in-input {
+      max-width: 500px;
+    }
+
+    .immersive-translate-modal-content-in-input .immersive-translate-modal-body {
+      text-align: left;
+      max-height: unset;
+    }
+
+    .immersive-translate-modal-title {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: #333333;
+    }
+
+    .immersive-translate-modal-body {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333333;
+      word-break: break-all;
+      margin-top: 24px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .immersive-translate-modal-body {
+        max-height: 250px;
+        overflow-y: auto;
+      }
+    }
+
+    .immersive-translate-close {
+      color: #666666;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .immersive-translate-close:hover,
+    .immersive-translate-close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .immersive-translate-modal-footer {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .immersive-translate-btn {
+      width: fit-content;
+      color: #fff;
+      background-color: #ea4c89;
+      border: none;
+      font-size: 16px;
+      margin: 0 8px;
+      padding: 9px 30px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .immersive-translate-btn:hover {
+      background-color: #f082ac;
+    }
+
+    .immersive-translate-cancel-btn {
+      /* gray color */
+      background-color: rgb(89, 107, 120);
+    }
+
+
+    .immersive-translate-cancel-btn:hover {
+      background-color: hsl(205, 20%, 32%);
+    }
+
+    .immersive-translate-action-btn {
+      background-color: transparent;
+      color: #EA4C89;
+      border: 1px solid #EA4C89
+    }
+
+    .immersive-translate-btn svg {
+      margin-right: 5px;
+    }
+
+    .immersive-translate-link {
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-drag: none;
+      text-decoration: none;
+      color: #007bff;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+    }
+
+    .immersive-translate-primary-link {
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-drag: none;
+      text-decoration: none;
+      color: #ea4c89;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+    }
+
+    .immersive-translate-modal input[type="radio"] {
+      margin: 0 6px;
+      cursor: pointer;
+    }
+
+    .immersive-translate-modal label {
+      cursor: pointer;
+    }
+
+    .immersive-translate-close-action {
+      position: absolute;
+      top: 2px;
+      right: 0px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body style="overflow-x:hidden;overflow-y:hidden;">
+
+  <div id="div_container">
+    <div id="div_start_bg"></div>
+    <div id="div_intersect" style="display: block; height: 947px; background-image: url(./images/bg.jpeg);">
+      <div id="div_is_inner" style="background: rgba(255,255,255,0);">
+        <div class="div_is_open_bg" style="background-color: rgba(255,255,255,1);">
+          <div class="div_is_open_btn" style="background-image: url(./images/open_letter2.jpg);"></div>
+        </div>
+        <div class="div_is_typed" style="padding:6%;">
+          <span id="span_is_typed">
+            <div id="box" class="boxText"
+              style="font-size: 20px;text-align:left;text-shadow:1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;color:#FFF;word-wrap:break-word;">
+                  辛勤耕耘知识地，寒窗苦读数十年。
+              <br>今朝征战上考场，自信饱满书人生。
+              <br>奋笔疾书智慧语，锦绣文章佳偶成。
+              <br>金榜题名必然事，鱼跃龙门花盛放。
+              <br>祝愿莘莘学子取得佳绩，赢得锦绣前程！
+              <br>--- 時光 2024.06.07
+            </div>
+          </span>
+        </div>
+      </div>
+      <video width="100%" height="100%" id="video1" style="object-fit: fill;" muted="true" loop="" preload=""
+        __idm_id__="13066242">
+        <source src="./video/video.mp4">
+        您的浏览器不支持 HTML5 video 标签。
+      </video>
+    </div>
+  </div>
+
+  <audio id="audio_music" data-id="audio_music" preload="auto" loop="" __idm_id__="13066241">
+    <source src="./music/music.mp3" type="audio/mpeg">
+    <embed hidden="true" autostart="true" height="0" width="0" loop="true" src="./music/music.mp3">
+  </audio>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/typeit.min.js"></script>
+  <script type="text/javascript">
+    var id = "956";
+    var data_type = "0";
+    var vip_type = "0";
+    var temp_id = "13";
+    var views = "452";
+    var music_url = "./music/music.mp3";
+  </script>
+
+  <script type="text/javascript">
+    var _0xodJ = 'jsjiami.com.v7'; var _0x40dea8 = _0x1458; if (function (_0x6e84, _0x43df2c, _0xb4fd88, _0x3bf065, _0x381ce5, _0x29a5a6, _0x4fff3b) { return _0x6e84 = _0x6e84 >> 0x5, _0x29a5a6 = 'hs', _0x4fff3b = 'hs', function (_0x3f8c68, _0x4802b5, _0x5615c5, _0x30013b, _0x31c8e7) { var _0x1e194a = _0x1458; _0x30013b = 'tfi', _0x29a5a6 = _0x30013b + _0x29a5a6, _0x31c8e7 = 'up', _0x4fff3b += _0x31c8e7, _0x29a5a6 = _0x5615c5(_0x29a5a6), _0x4fff3b = _0x5615c5(_0x4fff3b), _0x5615c5 = 0x0; var _0xe36f6a = _0x3f8c68(); while (!![] && --_0x3bf065 + _0x4802b5) { try { _0x30013b = parseInt(_0x1e194a(0x124, ']*sj')) / 0x1 + -parseInt(_0x1e194a(0x154, 'mw7*')) / 0x2 + parseInt(_0x1e194a(0x13e, 'J6vc')) / 0x3 * (parseInt(_0x1e194a(0x117, 'q8OH')) / 0x4) + -parseInt(_0x1e194a(0x121, 'q8OH')) / 0x5 * (parseInt(_0x1e194a(0x11e, 'VXY*')) / 0x6) + -parseInt(_0x1e194a(0x12f, 'e6I5')) / 0x7 * (parseInt(_0x1e194a(0x102, ']*sj')) / 0x8) + -parseInt(_0x1e194a(0x109, ']*sj')) / 0x9 * (-parseInt(_0x1e194a(0x11d, 'VXY*')) / 0xa) + parseInt(_0x1e194a(0x145, 'wbJm')) / 0xb * (-parseInt(_0x1e194a(0x155, 's$Lh')) / 0xc); } catch (_0x2dfbaf) { _0x30013b = _0x5615c5; } finally { _0x31c8e7 = _0xe36f6a[_0x29a5a6](); if (_0x6e84 <= _0x3bf065) _0x5615c5 ? _0x381ce5 ? _0x30013b = _0x31c8e7 : _0x381ce5 = _0x31c8e7 : _0x5615c5 = _0x31c8e7; else { if (_0x5615c5 == _0x381ce5['replace'](/[JxRAnGruKdNQTFtHPyLgOp=]/g, '')) { if (_0x30013b === _0x4802b5) { _0xe36f6a['un' + _0x29a5a6](_0x31c8e7); break; } _0xe36f6a[_0x4fff3b](_0x31c8e7); } } } } }(_0xb4fd88, _0x43df2c, function (_0x3f19ae, _0x22346d, _0x582b72, _0x5553b8, _0x2a8dca, _0x2aa0d1, _0x382830) { return _0x22346d = '\x73\x70\x6c\x69\x74', _0x3f19ae = arguments[0x0], _0x3f19ae = _0x3f19ae[_0x22346d](''), _0x582b72 = '\x72\x65\x76\x65\x72\x73\x65', _0x3f19ae = _0x3f19ae[_0x582b72]('\x76'), _0x5553b8 = '\x6a\x6f\x69\x6e', (0x1507d5, _0x3f19ae[_0x5553b8]('')); }); }(0x1780, 0x7d51f, _0x5c9f, 0xbe), _0x5c9f) { } var assets_host = ''; window[_0x40dea8(0x100, '4EVz')][_0x40dea8(0x143, 'VXY*')] === _0x40dea8(0x148, 'evR]') ? assets_host = _0x40dea8(0x10b, 'OreK') + _0x40dea8(0xff, '5[kT') + _0x40dea8(0x122, 'gfpK') : assets_host = _0x40dea8(0x135, 'Zvdt') + _0x40dea8(0x10c, '!zRE') + _0x40dea8(0xfd, 'uoUU'); document[_0x40dea8(0x14e, 'mC]q')](_0x40dea8(0x132, 'vLwQ') + assets_host + _0x40dea8(0x107, ']*sj')); var div_height = $(document)[_0x40dea8(0x12d, 'aKhf')]() + 0x2; function _0x5c9f() { var _0x1fdbb8 = (function () { return [_0xodJ, 'TdxjQAsuFpjLgiOatAmHiGg.JPcRronyHmK.NKv7==', 'aSk/W5W1jbldOW', 'w37dRmokWQW', 'zsjpW68XW4ZcOXy', 'W6NdQSoEW6NcI3FcUCo6', 'W6ZcRbDIkCo0BSoQW5yfxSoiWQ9CFIe', 'autcIHKmdSkpWQ1YArfjW6JcHCkDlWujWRa', 'WRRcRMPsEa', 'iCkFrbfBW4PtWOuqW7n3W7u', 'EwzocSobW5e', 'W67cV8kyFCkY', 'kHFdOmkHWRO', 'fq95WO/dSvPHfJm', 'W5NdVWWjWQ0CsSo+WPJcJG', 'f8kxv2Or', 'aZZdT00f', 'F1dcN8k2W4e', 'W5JcKtvvkCo5DCoJ', 'kwH3f8oIW6Hh', 'w1RdGwKUi1RcPG', 'eSkRe8kIhYfnW5e', 'uh13xuW', 'W7tdOSoAbCk3', 'smoUWPhcH3XKh38NamoedveJW7G6W4FdU8oc', 'W7JcOCkmuG', 'W6RcRCkhyfxcJCkzW5z/WOtdPK7cRxVcKrW', 'qJTFW5mn', 'W6b2W4/dGW', 'Amo5WPhcI3a', 'W4T/imkS', 'W5lcVCkmCfm', 'i8kyrvCRWRPWWQqe', 'WRldSSoha8osW4HuWP7cU8owW4qOW58', 'W6migmorW5VcR3G6W7P/bgnKbW7cLW'].concat((function () { return ['pHFdPmoWWRxdR8okqYpdMq18', 'W6dcNSoDW7v4F2mVvCkfW5NcS8o2', 'otZcKCkOW7WaW5D1WPpdU8k8', 'wq9jW4ue', 'W7ydcCo3W4xcUwiVW4rI', 'imkMW6jp', 'W6pcR1noxuDSW4fIbW0vr8kx', 'dCo+hSkXdZ5uW7qHdJnlW5e', 'W73dJCkdWR4CkI8d', 'W6/cImk5Dq', 'vCoZe8kIpW', 'qSo+e8kcjJjjW58zhJbAW5byWP8w', 'AtZdVmkbaG', 'W78sx8kzW6S', 'WQWye8oK', 'W7ejdKC', 'iJuxdmol', 'W4ldMSkXWOJcUsaVWO0', 'BwSWWRBdKq', 'WPxdUYKqWO4Ita', 'W5lcGaRcTb/dQZmd', 'vZf/W5Gw', 'W5HcW5jwd2PsWRW0WR/dRCo7WQtdMCoTvW', 'xZDxW44b', 'WOldOW0lWRegxCkWWOdcIutdTuVcP8oZW5zhW6jbW5VdTxddKgNcKCkkW5dcSuy', 'W5OZACks', 'WPNcPtCoWQ03umoS', 'WQaVWPhcH8k4W57cP8oLbIjxWOFdKa', 'iXBdSmk4W68gW4S', 'W7j3WPG', 'gSkOuW', 'WQldMI3cMJG', 'W5ZdKmk/WOBcUYWfWPuLaSoNW4ztdtBcK8ktW4VdQW', 'W5XZW4tdUmoh', 'WOSsWOmJsd9TWQemWOddRmob'].concat((function () { return ['W6lcLI5LdW', 'WP1PWRLQ', 'W6bpW456f0vVWOOkWR/dUSoOWQtdPCoTre/dOG', 'W7RcOc9RlW', 'iCkArXrrW4TsWQapW49vW5u', 'qHldN0rcmSkDWQXqtWq', 'W5nxhmoijG', 'tSoVa8kIna', 'BCkYu3VcLLjWW5T4tuBdVvJdOCoUwa', 'cCk3quK', 'ufqOWOe', 'WPRdL28rD8kQs8oMW4WNymoP', 'WPVdKW9mpSotuCo/', 'gbpdGCkyWR0', 'WQ/cR3v3ra', 'qrldLe9pdCkgWQHvBb8', 'Fmk9qG', 'WPJcGffe', 'WPRcPuTEW7DADmoCWQ/cGIJdTq', 'W4BcIfLlkmkXW4BcRvqAW6hcMCohWPhdIa', 'W5RdKmoclmo6', 'W7iEe8oK', 'xZRdNmkjW6raA3GTW71ToCo3WR4', 'mSkRwhW/', 'WRVdJGFdOCo8', 'W4ztW7FdHSo7', 'W5RcV8kKBCkD', 'pmkMW7nCWPZcSG', 'W4JcVL/cSSkvW6SoWQ7dGqldQYJdIq', 'e8o/WOXKCKZdPZ4twSkKnJW', 'qJRdUmkMW7i', 'WRLljSkTpa', 'fXtdQ8kqW6RcO8oDnJFdTmowWQldHG']; }())); }())); }()); _0x5c9f = function () { return _0x1fdbb8; }; return _0x5c9f(); } function _0x1458(_0x4b5d14, _0x4ce710) { var _0x5c9f9b = _0x5c9f(); return _0x1458 = function (_0x145825, _0x4caeb5) { _0x145825 = _0x145825 - 0xf3; var _0x36a4fb = _0x5c9f9b[_0x145825]; if (_0x1458['dQdJFa'] === undefined) { var _0x2b6677 = function (_0x1476b6) { var _0x57c52c = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='; var _0x109b3e = '', _0x464970 = ''; for (var _0x2ce2f5 = 0x0, _0x1cad20, _0x16c44e, _0xa978bd = 0x0; _0x16c44e = _0x1476b6['charAt'](_0xa978bd++); ~_0x16c44e && (_0x1cad20 = _0x2ce2f5 % 0x4 ? _0x1cad20 * 0x40 + _0x16c44e : _0x16c44e, _0x2ce2f5++ % 0x4) ? _0x109b3e += String['fromCharCode'](0xff & _0x1cad20 >> (-0x2 * _0x2ce2f5 & 0x6)) : 0x0) { _0x16c44e = _0x57c52c['indexOf'](_0x16c44e); } for (var _0x13fe55 = 0x0, _0x538f19 = _0x109b3e['length']; _0x13fe55 < _0x538f19; _0x13fe55++) { _0x464970 += '%' + ('00' + _0x109b3e['charCodeAt'](_0x13fe55)['toString'](0x10))['slice'](-0x2); } return decodeURIComponent(_0x464970); }; var _0x57815d = function (_0xa420d6, _0x5a78e1) { var _0x1c65ce = [], _0x4aa0e2 = 0x0, _0x2e41da, _0x43895c = ''; _0xa420d6 = _0x2b6677(_0xa420d6); var _0x395a90; for (_0x395a90 = 0x0; _0x395a90 < 0x100; _0x395a90++) { _0x1c65ce[_0x395a90] = _0x395a90; } for (_0x395a90 = 0x0; _0x395a90 < 0x100; _0x395a90++) { _0x4aa0e2 = (_0x4aa0e2 + _0x1c65ce[_0x395a90] + _0x5a78e1['charCodeAt'](_0x395a90 % _0x5a78e1['length'])) % 0x100, _0x2e41da = _0x1c65ce[_0x395a90], _0x1c65ce[_0x395a90] = _0x1c65ce[_0x4aa0e2], _0x1c65ce[_0x4aa0e2] = _0x2e41da; } _0x395a90 = 0x0, _0x4aa0e2 = 0x0; for (var _0x1885c5 = 0x0; _0x1885c5 < _0xa420d6['length']; _0x1885c5++) { _0x395a90 = (_0x395a90 + 0x1) % 0x100, _0x4aa0e2 = (_0x4aa0e2 + _0x1c65ce[_0x395a90]) % 0x100, _0x2e41da = _0x1c65ce[_0x395a90], _0x1c65ce[_0x395a90] = _0x1c65ce[_0x4aa0e2], _0x1c65ce[_0x4aa0e2] = _0x2e41da, _0x43895c += String['fromCharCode'](_0xa420d6['charCodeAt'](_0x1885c5) ^ _0x1c65ce[(_0x1c65ce[_0x395a90] + _0x1c65ce[_0x4aa0e2]) % 0x100]); } return _0x43895c; }; _0x1458['UybeNS'] = _0x57815d, _0x4b5d14 = arguments, _0x1458['dQdJFa'] = !![]; } var _0x275841 = _0x5c9f9b[0x0], _0x2c9e98 = _0x145825 + _0x275841, _0x4be127 = _0x4b5d14[_0x2c9e98]; return !_0x4be127 ? (_0x1458['cWvSNu'] === undefined && (_0x1458['cWvSNu'] = !![]), _0x36a4fb = _0x1458['UybeNS'](_0x36a4fb, _0x4caeb5), _0x4b5d14[_0x2c9e98] = _0x36a4fb) : _0x36a4fb = _0x4be127, _0x36a4fb; }, _0x1458(_0x4b5d14, _0x4ce710); }; $(_0x40dea8(0xf5, 'aleA'))[_0x40dea8(0x10d, '*apn')](_0x40dea8(0x13b, '5[kT'), div_height + 'px'), $(_0x40dea8(0x11a, '$t!M'))[_0x40dea8(0xfb, '3Q*^')](function () { var _0x30b316 = _0x40dea8, _0x2cad8d = { 'SqEPh': _0x30b316(0x14f, 'AZO*'), 'RCuJi': function (_0x347029, _0x2d0c98) { return _0x347029 != _0x2d0c98; }, 'KpxLb': function (_0x5a27e0) { return _0x5a27e0(); }, 'ZgDGT': _0x30b316(0x130, 'zr*f'), 'vwJwL': _0x30b316(0x119, '9UD@'), 'MSyNh': _0x30b316(0x125, 'zCyU'), 'iWRAd': _0x30b316(0x133, 'e6I5'), 'DoiJO': function (_0x1da5c4, _0x181221) { return _0x1da5c4(_0x181221); }, 'eVUiH': _0x30b316(0xf7, 's$Lh') }; _0x2cad8d[_0x30b316(0x115, 'VXY*')](music_url, '') ? _0x2cad8d[_0x30b316(0x129, '*apn')](checkAudio) : _0x30b316(0x139, 'aleA') !== _0x2cad8d[_0x30b316(0x104, 'Zvdt')] ? (_0x5646ae(_0x30b316(0x152, 'evR]'))[_0x30b316(0x14a, 'woBb')](), new _0x5c6a37(_0x2cad8d[_0x30b316(0x11f, 'OreK')], { 'lifeLike': !![], 'cursorSpeed': 0x320, 'waitUntilVisible': !![], 'speed': 0xaa })['go']()) : $(_0x30b316(0xf9, '9UD@'))[_0x30b316(0x127, 'uoUU')](_0x2cad8d[_0x30b316(0x142, 'mw7*')], ![]), $(_0x2cad8d[_0x30b316(0x101, 'J6vc')])[_0x30b316(0xfe, 'BV3!')](), $(_0x2cad8d[_0x30b316(0x141, 'wbJm')])[0x0][_0x30b316(0x11b, '*apn')](), _0x2cad8d[_0x30b316(0x118, 'WjSS')](_0x2cad8d[_0x30b316(0x10e, '1N5i')]($, _0x2cad8d[_0x30b316(0x13c, 'A]R[')])[_0x30b316(0xf4, 'aKhf')]()[_0x30b316(0x113, 'P#U$')](), '') && ($(_0x30b316(0xf6, '9UD@'))[_0x30b316(0x14d, '!zRE')](), new TypeIt(_0x2cad8d[_0x30b316(0x134, 'B&uu')], { 'lifeLike': !![], 'cursorSpeed': 0x320, 'waitUntilVisible': !![], 'speed': 0xaa })['go']()); }); function checkAudio() { var _0x267452 = _0x40dea8, _0x392625 = { 'TYrZF': _0x267452(0x147, '@wTE'), 'JutDI': _0x267452(0x120, 'aleA'), 'OmdLO': _0x267452(0x13f, ']*sj'), 'FFlYw': function (_0x4f63c0, _0x49b144) { return _0x4f63c0 === _0x49b144; }, 'UMWrs': _0x267452(0x106, 'Zvdt'), 'QViyg': function (_0x25ae31) { return _0x25ae31(); }, 'AFafZ': _0x267452(0x13d, 'OreK'), 'YtoUp': _0x267452(0x137, 'VXY*'), 'nLwZL': _0x267452(0x114, 'ljqs') }, _0x4b6e40 = $(_0x392625[_0x267452(0x12a, 'Q!)S')])[_0x267452(0xf8, 'A]R[')]('id'), _0x5bc90f = document[_0x267452(0x128, 'zr*f')](_0x4b6e40), _0x7d9c71 = function () { var _0x1b74d3 = _0x267452; _0x392625[_0x1b74d3(0x157, 'Zvdt')] !== _0x392625[_0x1b74d3(0x112, 'VXY*')] ? (_0x5bc90f[_0x1b74d3(0x108, 'wo$i')](), document[_0x1b74d3(0x138, 'q8OH')](_0x392625[_0x1b74d3(0x110, '!zRE')], _0x7d9c71, ![])) : (_0x34441[_0x1b74d3(0x123, 'zCyU')](), _0x423edc[_0x1b74d3(0x10f, '4EVz')](_0x1b74d3(0xf3, 'uoUU'), _0x1e088b, ![])); }; _0x5bc90f && (_0x5bc90f[_0x267452(0x11c, 'J6vc')](), document[_0x267452(0x14b, 'woBb')](_0x392625[_0x267452(0x150, 'woBb')], function () { var _0x27e6c8 = _0x267452; _0x392625[_0x27e6c8(0x126, 'evR]')](_0x392625[_0x27e6c8(0xfc, 'wo$i')], _0x392625[_0x27e6c8(0x12b, '!zRE')]) ? _0x392625[_0x27e6c8(0x131, 'AZO*')](_0x7d9c71) : _0x38d94e(); }, ![]), document[_0x267452(0x105, 'ljqs')](_0x267452(0x149, 'mC]q'), function () { _0x7d9c71(); }, ![]), document[_0x267452(0xfa, '9UD@')](_0x392625[_0x267452(0x140, '*apn')], function () { var _0x258a6d = _0x267452; _0x392625[_0x258a6d(0x12c, 'A]R[')](_0x7d9c71); }, ![]), document[_0x267452(0x153, 'uoUU')](_0x392625[_0x267452(0x14c, 'Zvdt')], _0x7d9c71, ![])); } var version_ = 'jsjiami.com.v7';
+  </script>
+  <script src="./js/main.js"></script>
+
+
+  <!-- <div class="div_btn" id="btn-make">
+    <a href="https://www.shiguang666.eu.org"><span>制作</span></a>
+</div> -->
+  <div class="div_btn" id="div_support">
+    <a href="https://www.shiguang666.eu.org"><span>更多</span></a>
+  </div>
+
+  <!-- <script>
+if ((typeof (data_type) != "undefined" && data_type == 0) || (typeof (vip_type) != "undefined" && vip_type != null && vip_type == 0)) {
+	var ua = navigator.userAgent.toLowerCase(); 
+	if (ua.match(/MicroMessenger/i) == "micromessenger" && ua.indexOf("miniprogram") < 1&& window.location.href.indexOf("code") < 1 && window.location.href.indexOf("new") < 1 && window.location.href.indexOf("mp") < 1 && document.referrer.indexOf("game") == -1) { 
+		document.writeln("<script src=\"https://ai8.top/api/getJumpJs\"><\/script>");  
+	}
+}
+
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	if(location.toString().indexOf("55.cn")>-1 || location.toString().indexOf("77.cn")>-1 || location.toString().indexOf("ai8")>-1){
+		hm.src = "https://hm.baidu.com/hm.js?51d6321aaa4909493b4e8941b57c30d7";//OT统计
+	}else{
+		hm.src = "https://hm.baidu.com/hm.js?9268d9128fcebf1a5da96d7cb2a8dac4";//CN统计
+	}
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script> -->
+  </script>
+  </script>
+
+</body>
+
+</html>
